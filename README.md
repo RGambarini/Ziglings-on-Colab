@@ -12,5 +12,7 @@ The notebook is organized so that it first installs zig into the runtime and add
 Other useful links:
 
 Zig website: https://ziglang.org
+
 Current documentation for zig: https://ziglang.org/learn/
+
 Cookbook: https://zigcc.github.io/zig-cookbook/
