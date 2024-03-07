@@ -6,10 +6,10 @@ import os
 import glob
 
 # Clone the repository
-subprocess.run(['git', 'clone', 'https://github.com/ratfactor/ziglings.git'])
+subprocess.run(['git', 'clone', 'https://codeberg.org/ziglings/exercises.git'])
 
 # Path to the exercises directory in the cloned repo
-exercises_path = 'ziglings/exercises/'
+exercises_path = 'exercises/exercises/'
 
 # Populate the list of exercise files
 exercise_files = sorted(glob.glob(os.path.join(exercises_path, '*.zig')))
